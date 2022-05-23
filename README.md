@@ -1,2 +1,3 @@
 # nergal
-Summarizator for Russian language/
+Summarizator for Russian language's news.
+Nergal is The God of drought.
