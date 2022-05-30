@@ -24,5 +24,5 @@ test_dl = DataLoader(
     "shuffle": False}
 )
 
-trainer = Trainer(train_dl, val_dl, test_dl, device, 20, AdamW, {"lr": 0.00001}, run_name="train_parafrase")
+trainer = Trainer(train_dl, val_dl, test_dl, device, 20, AdamW, {"lr": 0.00001}, run_name="train_paraphrase")
 trainer.train()

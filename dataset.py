@@ -14,7 +14,7 @@ class SummarizationDataset(Dataset):
         self.tokenizer.tgt_lang = "ru_RU"
         self.tokenizer.src_lang = "ru_RU"
 
-        # parafrase block
+        # paraphrase block
         if paraphrase_summary:
             MODEL_NAME = 'cointegrated/rut5-base-paraphraser'
             p_model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME)
